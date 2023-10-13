@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+    <head>
+        <title>221B Memory | Education</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body background="bgactual2.png">
+        <header>
+            <a hrefm="#" class="logo">221b</a>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Play</a></li>
+            </ul>
+        </header>
+        <section>
+            <img src="stars.png" id="stars">
+            <img src="moon.png" id="moon">
+            <img src="background4.png" id="background">
+            <img src="lamp.png" id="lamp">
+            <!--<img src="221b.png" id="first">-->
+            <h2 id="text">221b Memory</h2>
+            <a href="#sec" id="btn">Explore</a>
+            <img src="foreground3.png" id="foreground">
+        </section>
+        <div class="sec" id="sec">
+            <h2>About Us</h2>
+            <p> &nbsp; &nbsp;&nbsp; &nbsp;"I consider that a man's brain originally is like a little empty attic, and you have to stock it with such furniture as you choose. . . ." - <em>Sir Arthur Conan Doyle, the Adventures of Sherlock Holmes</em> <br><br>
+                &nbsp; &nbsp;&nbsp; &nbsp;221b Memory is a K-12 detective-inspired interactive website that encourages memorization.
+                Beginning January 1st, 2023, Sherlock Holmes was re-released as a public domain.
+                In popular adaptations, the main motif is a mind palace--or rather, a memory palace. The method of loci, 
+                more commonly known as a memory palace, 
+                is a technique used to visualize associations to terms/definition to better comprehend concepts and stick to memory.<br><br> 
+                Visualize your studies with the mind palace!  <br><br></p>
+        </div>
+        <script>
+            let stars = document.getElementById('stars');
+            let moon = document.getElementById('moon');
+            let background = document.getElementById('background');
+            let lamp = document.getElementById('lamp');
+            let first = document.getElementById('first');
+            let text = document.getElementById('text');
+            let btn = document.getElementById('btn');
+            let foreground = document.getElementById('foreground');
+            let header = document.querySelector('header');
+            window.addEventListener('scroll', function(){
+                let value = window.scrollY;
+                stars.style.left = value * 0.5 + 'px';
+                moon.style.top = value * 1.3 + 'px';
+                background.style.top = value * 0.4 + 'px';
+                lamp.style.top = value * 0 + 'px';
+                foreground.style.top = value * 0 + 'px';
+                /*first.style.marginRight = value * 1.5 + 'px';*/
+                text.style.marginRight = value * 1.5 + 'px';
+                btn.style.marginTop = value * 1.4 + 'px';
+                header.style = value * 0.5 + 'px';
+            })
+        </script>
+    </body>
+</html>

@@ -2,7 +2,7 @@
 ## Goal
   This website aims to make studying more enjoyable as an interactive application inspired by Sir Arthur Conan Doyle's _The Adventures of Sherlock Holmes_.
 
-# Code
+## Code
   In the code, comments are visible for anyone trying to learn HTML/CSS for the first time.
   Furthermore, you are able to see the files used and image resolutions.
 
@@ -26,10 +26,11 @@ Frameworks
 ## Credits
         - Online Tutorials
 
-# References
+## References
 Images:  
 
-6325 x 2864 px (width x height)
+6325 x 2864 px (width x height)  
+
 72 Resolution
 
 

@@ -26,7 +26,10 @@ Frameworks
 ## Credits
         - Online Tutorials
 
+# References
+Images:  
 
-
+6325 x 2864 px (width x height)
+72 Resolution
 
 

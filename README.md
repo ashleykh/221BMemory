@@ -12,10 +12,13 @@
 
 ## Resources/Tools Used
 Languages 
-        - HTML
-        - CSS
-Frameworks
-        - Clip Studio Paint
+- HTML  
+
+- CSS  
+
+Frameworks  
+
+- Clip Studio Paint
 ## Credits
         - Online Tutorials
 

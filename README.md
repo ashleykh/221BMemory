@@ -20,7 +20,7 @@ Languages
 
 - CSS  
 
-Frameworks  
+Other Tools
 
 - Clip Studio Paint
 ## Credits
